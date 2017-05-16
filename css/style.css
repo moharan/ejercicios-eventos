@@ -1,3 +1,13 @@
 body {
+	margin-top: 100px;
 	background-color: black;
+	color: Cornsilk;
+	font-family: 'Merriweather', serif;
+	font-size: 12px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: Chocolate;
+	font-size: 35px;
 }

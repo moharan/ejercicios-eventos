@@ -2,11 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Ejercicio</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+	<title>Ejercicio</title>
+	<!-- tipografia -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+	<!-- css -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-<!-- JAVASCRIPT es preferible como ultima linea en el body -->
-<script type="text/javascript" src="js/main.js"></script>
+<body id="body" onload="pagina()">
+	<a id="demo" href="#">{Botón Saludo}</a>
+	<hr>
+    <input type="submit" value="MouseOut" onmouseout="out()"">
+	<input type="submit" value="MouseOver" onmouseover="over()">
+	<!-- JAVASCRIPT es preferible como ultima linea en el body -->
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
